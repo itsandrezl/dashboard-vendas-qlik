@@ -6,8 +6,7 @@
 
 ## 🖥️ Preview
 
-![Dashboard Principal](assets/dashboard.png)
-![Dashboard Alternativo](assets/dashboard_2.png)
+![Dashboard Principal](assets/Dashboard.png)
 
 ---
 
