@@ -10,7 +10,7 @@
 
 ---
 
-## 🎯 Objetivo
+##  Objetivo
 
 Construir um painel executivo de vendas capaz de responder as principais perguntas de negócio de uma operação comercial:
 
@@ -22,7 +22,7 @@ Construir um painel executivo de vendas capaz de responder as principais pergunt
 
 ---
 
-## 📈 KPIs e Indicadores
+## KPIs e Indicadores
 
 | Indicador | Descrição |
 |-----------|-----------|
@@ -133,6 +133,7 @@ A separação entre `Vendas_Temp` (dados brutos) e `Vendas` (dados tratados) seg
 ## Autor
 
 **André Felipe dos Santos Ricardo**
+
 Data & System Analyst | Joinville, SC
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/itsandrezl/)
