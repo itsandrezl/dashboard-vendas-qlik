@@ -1,10 +1,10 @@
-# 📊 Dashboard de Vendas — Análise Comercial com Qlik Sense
+# Dashboard de Vendas — Análise Comercial com Qlik Sense
 
 > Painel analítico interativo construído no Qlik Sense para análise completa de performance comercial, com dataset sintético de 50.000 registros de vendas simulando um ambiente real de varejo.
 
 ---
 
-## 🖥️ Preview
+## Preview
 
 ![Dashboard Principal](assets/Dashboard.png)
 
@@ -36,21 +36,20 @@ Construir um painel executivo de vendas capaz de responder as principais pergunt
 
 ---
 
-## 🗂️ Estrutura do Repositório
+##  Estrutura do Repositório
 
 ```
 dashboard-vendas-qlik/
 ├── README.md
 ├── assets/
 │   ├── dashboard.png        ← print do painel principal
-│   └── dashboard_2.png      ← variação de layout
 └── script/
     └── load_script.qvs      ← script de carga e modelagem
 ```
 
 ---
 
-## ⚙️ Script de Carga — Como Funciona
+## Script de Carga — Como Funciona
 
 O dado foi gerado sinteticamente diretamente no Qlik Sense via `AutoGenerate`, simulando 50.000 registros de vendas com distribuição aleatória controlada.
 
@@ -93,7 +92,7 @@ DROP TABLE Vendas_Temp;
 
 ---
 
-## 🧠 Decisões Técnicas
+##  Decisões Técnicas
 
 **Por que dataset sintético?**
 A geração via `AutoGenerate` com `Rand()` permite simular distribuições realistas sem depender de dados sensíveis. Com 50.000 registros, o painel responde de forma fluida mesmo com múltiplos filtros ativos simultâneos.
@@ -106,7 +105,7 @@ A separação entre `Vendas_Temp` (dados brutos) e `Vendas` (dados tratados) seg
 
 ---
 
-## 📌 Filtros Disponíveis no Painel
+##  Filtros Disponíveis no Painel
 
 - **Ano/Mês** — seleção temporal
 - **Cliente** — filtro por ID de cliente
@@ -116,7 +115,7 @@ A separação entre `Vendas_Temp` (dados brutos) e `Vendas` (dados tratados) seg
 
 ---
 
-## 💡 Principais Insights do Dataset
+## Principais Insights do Dataset
 
 - As **4 categorias** (Eletrônicos, Móveis, Vestuário, Informática) têm distribuição equilibrada (~25% cada), indicando ausência de sazonalidade forçada
 - Os **3 meios de pagamento** têm share quase igual (~33% cada) — típico de varejo online diversificado
@@ -125,13 +124,13 @@ A separação entre `Vendas_Temp` (dados brutos) e `Vendas` (dados tratados) seg
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ![Qlik Sense](https://img.shields.io/badge/Qlik_Sense-009848?style=for-the-badge&logo=qlik&logoColor=white)
 
 ---
 
-## 👤 Autor
+## Autor
 
 **André Felipe dos Santos Ricardo**
 Data & System Analyst | Joinville, SC
