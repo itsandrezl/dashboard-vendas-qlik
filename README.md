@@ -6,7 +6,7 @@
 
 ## Preview
 
-![Dashboard Principal](assets/dashboard-qlik.pg)
+![Dashboard Principal](assets/dashboard-qlik.png)
 
 ---
 
