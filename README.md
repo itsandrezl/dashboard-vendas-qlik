@@ -6,7 +6,7 @@
 
 ## Preview
 
-![Dashboard Principal]()
+![Dashboard Principal](assets/dashboard-qliksense.png)
 
 ---
 
